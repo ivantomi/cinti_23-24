@@ -1,0 +1,14 @@
+"use client";
+import React from "react";
+import { useState } from "react";
+import Counter from "@/components/Counter";
+
+const page = () => {
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
+};
+
+export default page;
